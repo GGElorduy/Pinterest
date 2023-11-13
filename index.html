@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!-- 235-355 
+      width="235"
+      height="355"-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinterest</title>
+    <link
+      rel="icon"
+      href="/ArquitecturaHTML/assets/ScreenShot Tool -20231107104000.png"
+      type="icon/png"
+    />
+    <meta
+      name="description"
+      content="This is a testing web side for practicing html"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>PINTEREST</h1>
+        <ul>
+          <li><a href="https://www.pinterest.es/videos/">Watch</a></li>
+          <li><a href="https://www.pinterest.es/ideas/">Explore</a></li>
+          <li>
+            <a href="https://help.pinterest.com/en-gb/guide/all-about-pinterest"
+              >About</a
+            >
+          </li>
+          <li><a href="https://www.pinterest.es/_/_/business/">Business</a></li>
+          <li><a href="https://newsroom.pinterest.com/en-gb/">Press</a></li>
+          <li>
+            <a
+              href="https://www.pinterest.com/login/?next=https://business.pinterest.com"
+              >Log in</a
+            >
+          </li>
+          <li>
+            <a href="https://www.pinterest.com/business/create/">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <details>
+          <summary id="#intro">Get your next</summary>
+          <ul>
+            <li>weeknight dinner idea</li>
+            <li>home décor idea</li>
+            <li>new outfit</li>
+            <li>green thumb idea</li>
+          </ul>
+        </details>
+        <img
+          src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699444999/Pinterest/silvestre_fpbcho.jpg"
+          alt="silvestre"
+        /><img
+          src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699444999/Pinterest/planta_qs8j0p.jpg"
+          alt="planta"
+        /><img
+          src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699444998/Pinterest/fruta_weknag.jpg"
+          alt="fruta"
+        /><img
+          src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699444999/Pinterest/planta_qs8j0p.jpg"
+          alt="silvestre"
+        /><img
+          src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699444998/Pinterest/homegreen_zq45po.jpg"
+          alt="suculenta"
+        />
+        <div>
+          <a href="#work">Let' see how it works</a>
+        </div>
+      </section>
+      <section>
+        <article id="#work1">
+          <h3>Search for an idea</h3>
+          <p>
+            What do you want to try next? Think of something you're into - such
+            as 'easy chicken dinner' - and see what you find.
+          </p>
+          <a href="https://www.pinterest.es/ideas/food-and-drink/918530398158/"
+            >Explore</a
+          >
+          <div>
+            <a
+              href="https://www.pinterest.es/search/pins/?q=easy%20chicken%20dinner"
+              ><p id="easychicken">Easy chicken dinner</p>
+
+              <img
+                src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699445561/Pinterest/friedchicken_vxe5qj.png"
+                alt="pollo frito"
+                width="235"
+                height="355"
+              /><img
+                src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699445561/Pinterest/chickentend_fvdxdt.png"
+                alt="pollo especial"
+                width="235"
+                height="355"
+              /><img
+                src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699445561/Pinterest/chickenbreast_bcezho.png"
+                alt="pollo a la plancha"
+                width="235"
+                height="355"
+              /><img
+                src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699445561/Pinterest/thaichicken_potpav.png"
+                alt="pollo asiatico"
+                width="235"
+                height="355"
+              />
+            </a>
+          </div>
+        </article>
+        <article>
+          <div>
+            <h3>Save ideas you like</h3>
+            <p>Collect your favorites so you can get them back later.</p>
+            <a href="https://www.pinterest.es/ideas/home-decor/935249274030/"
+              >Explore</a
+            >
+          </div>
+        </article>
+      </section>
+      <section>
+        <div>
+          <a href="https://www.pinterest.es/search/pins/?q=lip%20shade">
+            <img
+              src="https://res.cloudinary.com/dbnbfpype/image/upload/v1699444999/Pinterest/lips_ghroxa.png"
+              alt="lips shades"
+            />
+          </a>
+        </div>
+        <div>
+          <h3>See it, make it, try it, do it</h3>
+          <p>
+            The best part of Pintterest is discovering new things and ideas from
+            people around the world.
+          </p>
+          <a href="https://www.pinterest.es/search/pins/?q=lip%20shade"
+            >Explore</a
+          >
+        </div>
+      </section>
+      <section>
+        <div>
+          <h3>Sign up to get your ideas</h3>
+        </div>
+        <div>
+          <h2>Welcome to Pinterest</h2>
+          <div class="singin">
+            <h4>Find new ideas to try</h4>
+            <form
+              action="/action.php"
+              method="get"
+              autocomplete="on"
+              name="singin"
+            >
+              <label for="email">Email:</label><br />
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Email adress"
+              />
+              <label for="password">Introduce tu password</label><br />
+              <input
+                type="password"
+                id="clave"
+                name="clave"
+                size="20"
+                placeholder="Create a Password"
+              />
+              <label for="date">Enter date of birth</label><br />
+              <input type="date" /><br />
+
+              <input type="submit" />
+            </form>
+          </div>
+          <div class="login">
+            <form
+              action="/action.php"
+              method="get"
+              autocomplete="on"
+              name="login"
+            >
+              <label for="email">Email:</label><br />
+              <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="Email adress"
+              />
+              <label for="password">Enter tu password</label><br />
+              <input
+                type="password"
+                id="clave"
+                name="clave"
+                size="20"
+                placeholder="Password"
+              />
+              <input type="submit" />
+            </form>
+          </div>
+          <h4>OR</h4>
+          <br />
+          <a href="#reffacebook">Continue with Facebook</a>
+          <a href="#refgoogle">Continue with Google</a>
+          <p>
+            By continuing, you agree to Pinterest's
+            <a href="https://policy.pinterest.com/en-gb/terms-of-service"
+              >Terms of Service</a
+            >
+            and acknoledge that you've read our
+            <a href="https://policy.pinterest.com/en-gb/privacy-policy"
+              >Privacy Policy</a
+            >.
+            <a href="https://policy.pinterest.com/en-gb/notice-at-collection"
+              >Notice at collection</a
+            >.
+          </p>
+
+          <br />
+          <p>Already a member?</p>
+          <a href="#login"> Log in</a>
+        </div>
+      </section>
+      <footer>
+        <ul>
+          <li>
+            <a href="https://policy.pinterest.com/en-gb/terms-of-service"
+              >Terms of Service</a
+            >
+          </li>
+          <li>
+            <a href="https://policy.pinterest.com/en-gb/privacy-policy"
+              >Privacy Policy</a
+            >
+          </li>
+          <li><a href="https://help.pinterest.com/en-gb">Help</a></li>
+          <li>
+            <a href="https://apps.apple.com/us/app/pinterest/id429047995"
+              >Iphone app</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.pinterest&pli=1"
+              >Android app</a
+            >
+          </li>
+          <li>
+            <a href="https://www.pinterest.es/html_sitemap/pinners_a.html"
+              >Users</a
+            >
+          </li>
+          <li>
+            <a href="https://www.pinterest.es/html_sitemap/boards_a.html"
+              >Collections</a
+            >
+          </li>
+          <li>
+            <a href="https://www.pinterest.es/html_sitemap/shopping_0.html"
+              >Shopping</a
+            >
+          </li>
+          <li><a href="https://www.pinterest.es/today/">Today</a></li>
+          <li><a href="https://www.pinterest.es/ideas/">Explore</a></li>
+          <li><a href="https://www.pinterest.es/videos/">Watch</a></li>
+          <li><a href="https://www.pinterest.es/ideas/">Shop</a></li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
